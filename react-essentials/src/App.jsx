@@ -4,6 +4,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
 }
 
+/*new line*/
 function Header() {
   const description = reactDescriptions[getRandomInt(2)];
   return (
